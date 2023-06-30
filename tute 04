@@ -1,0 +1,66 @@
+Tutorial 4
+1)
+•	Missing parentheses around the condition
+•	Incorrect operator “=” used for equality “==” comparison.
+•	Inconsistent indentation.
+
+2) The variable number is assigned the value 4, and alpha is assigned the value -1.0.
+The outer if statement checks if number is greater than 0. Since number is 4 (greater than 0), the inner if statement is entered.
+The inner if statement checks if alpha is greater than 0. However, alpha is -1.0 (not greater than 0), so the else block is executed.
+The statement printf("No, I'm here! \n"); is executed and prints "No, I'm here!" to the console.
+After that, the program continues executing the next statement printf("No, actually, I'm here! \n"); outside of any conditional block. This statement is executed regardless of the conditions in the if statements, and it prints "No, actually, I'm here!" to the console.
+The output produced by this program segment would be:
+No, actually, I'm here!
+
+3) The logic of the if statement can be explained as follows:
+If doesSignificantWork is true:
+If makesBreakthrough is true, the variable nobelPrizeCandidate is set to true.
+If makesBreakthrough is false, the variable nobelPrizeCandidate is set to false.
+If doesSignificantWork is false, i.e., !doesSignificantWork is true:
+The variable nobelPrizeCandidate is set to false.
+Therefore, the possible values of nobelPrizeCandidate based on the conditions are:
+nobelPrizeCandidate is true when doesSignificantWork is true and makesBreakthrough is true.
+nobelPrizeCandidate is false when either:
+doesSignificantWork is true and makesBreakthrough is false, or
+doesSignificantWork is false.
+
+
+4) 
+if (taxCode == 'T') {
+    price += taxRate * price / 100.0;
+}
+
+if (opCode == 1) {
+    double X, Y;
+    scanf("%lf %lf", &X, &Y);
+    double sum = X + Y;
+    printf("Sum: %lf\n", sum);
+}
+
+if (currentNumber % 2 != 0) {
+    currentNumber = 3 * currentNumber + 1;
+} else {
+    currentNumber = currentNumber / 2;
+}
+
+bool leapYear;
+if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+    leapYear = true;
+} else {
+    leapYear = false;
+}
+
+
+
+
+
+double cost;
+if (distance >= 0 && distance <= 100) {
+    cost = 5.00;
+} else if (distance > 100 && distance <= 500) {
+    cost = 8.00;
+} else if (distance > 500 && distance < 1000) {
+    cost = 10.00;
+} else if (distance >= 1000) {
+    cost = 12.00;
+}
