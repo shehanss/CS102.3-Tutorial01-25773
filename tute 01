@@ -1,0 +1,27 @@
+1)	Programming languages are essential tools for humans to communicate instructions to computers, develop software applications, automate tasks, solve problems, and drive technological progress. They provide the necessary abstraction and functionality to make computers useful and powerful tools for various domains and industries.
+2)	Source Code vs. Machine Code:
+Source code refers to the human-readable instructions written in a programming language. It is written by developers and contains higher-level constructs and abstractions.
+Machine code, on the other hand, consists of binary instructions that are directly executable by the computer's hardware. It is specific to the processor architecture and represents the lowest level of code understood by the computer.
+
+High-Level Language vs. Low-Level Language:
+High-level languages are designed to be more user-friendly and closer to human language, providing abstraction from the underlying hardware. They offer features like variables, functions, and complex data structures. Examples include Python, Java, and C++.
+Low-level languages are closer to the hardware and provide more direct control over the computer's resources. They have minimal abstractions and are highly specific to the machine architecture. Assembly language is a common example of a low-level language.
+
+Compiler vs. Interpreter:
+A compiler is a program that translates the entire source code into machine code before execution. It performs a static analysis and generates an executable file that can be directly run on the target platform. Compilation is done once, and the resulting binary can be executed multiple times.
+An interpreter, on the other hand, executes the source code line by line, translating and executing each instruction on-the-fly. It does not generate an executable file. Interpreted languages tend to have a shorter development cycle as changes can be made and executed immediately.
+
+Structured Language vs. Object-Oriented Language:
+Structured languages focus on organizing code into logical structures and sequences. They typically use constructs like loops, conditionals, and subroutines to control the flow of execution. Examples include C and Pascal.
+Object-oriented languages emphasize organizing code around objects, which encapsulate data and behavior. They enable concepts such as inheritance, polymorphism, and encapsulation. Examples include Java, C++, and Python.
+
+C vs. C++:
+C is a procedural programming language known for its simplicity and efficiency. It provides low-level control over the computer's resources and is widely used for system programming, embedded systems, and performance-critical applications.
+C++ is an extension of the C language with added support for object-oriented programming. It introduces features like classes, templates, and exception handling while maintaining compatibility with C. C++ is used in a wide range of applications, including game development, large-scale software projects, and high-performance computing.
+C++ vs. Java:
+C++ is a statically-typed, compiled language that offers a high level of control and performance. It is often used for system-level programming and performance-critical applications.
+Java is a statically-typed, interpreted language that runs on the Java Virtual Machine (JVM). It emphasizes platform independence, robustness, and ease of use. Java is commonly used for web development, enterprise software, and Android app development.
+
+Syntax Error vs. Logical Error:
+A syntax error occurs when the code violates the rules and structure of the programming language. It indicates that the code is not properly written and cannot be executed until the syntax errors are fixed.
+A logical error, also known as a semantic error, occurs when the code is syntactically correct but does not produce the expected behavior. It typically arises from flawed logic or incorrect algorithmic implementation and can lead to undesired outcomes or program failures. Identifying and fixing logical errors requires careful debugging and analysis.
