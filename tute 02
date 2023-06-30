@@ -1,0 +1,63 @@
+1.	In C programming, you can write comments using two methods:
+a.	// This is a single-line comment in C.
+b.	/* This is a multi-line comment
+in C programming language.
+It can span multiple lines. */
+The purpose of comments in a program is to provide explanatory or descriptive information about the code. Comments are ignored by the compiler or interpreter and are meant for developers to add notes, clarify code functionality, or provide documentation. They help improve code readability, aid in code maintenance, and make it easier for other developers to understand and work with the code.
+
+2.	the “main()” function is essential in a C program as it acts as the starting point for execution and contains the code that defines the program's behavior.
+
+3.	The purpose of the “scanf” function in C is to read input from the user or from a specified input stream, such as the keyboard or a file. It is used to extract formatted data from the input stream based on the provided format specifier.
+
+4.	Yes, the C programming language is case sensitive. This means that distinctions are made between uppercase and lowercase letters in C code.
+
+5.	Valid identifiers: record1, $tax, return, name, name_and_address
+Invalid identifiers
+(b) 1record: Identifiers cannot start with a digit in C. They must begin with a letter or an underscore.
+(c) file-3: The hyphen (-) is not allowed in C identifiers. Only letters, digits, and underscores are permitted.
+(g) name and address: Spaces are not allowed within identifiers in C. Instead, you can use an underscore (_) to represent spaces.
+(h) name-and-address: Similar to (g), hyphens are not allowed in C identifiers. Use underscores instead.
+(j) 123-45-6789: It starts with digits and contains hyphens, which are not allowed in C identifiers. Identifiers must start with a letter or an underscore.
+
+
+
+
+
+
+6.	a) False. The function “printf” does not automatically begin printing at the beginning of a new line. It continues printing from the current cursor position unless specified otherwise using escape sequences like \n.
+b) False. Comments in C, enclosed between /* and */, are ignored by the compiler and do not cause any output to be printed when the program is executed.
+c)True
+d)True
+e)True
+f) False. C is case-sensitive, so ‘number’ and ‘NuMbEr’ would be considered as two different variables. C distinguishes between uppercase and lowercase letters, so variables with different casing are considered distinct.
+g) False. The number of ‘printf’ statements does not necessarily dictate the number of lines printed. A single ‘printf’ statement can output multiple lines by using appropriate newline characters (\n) within the format control string. Conversely, multiple ‘printf’ statements can be used to print a single line or fewer lines, depending on the content and formatting desired.
+
+7.	*
+**
+***
+****
+*****
+
+8.	a) scanf("%d", &value);
+b) printf("The product of %d and %d is %d\n", x, y, product);
+c) scanf("%d", &anInteger);
+d) printf("Remainder of %d divided by %d is %d\n", x, y, x % y);
+e) printf("The sum is %d\n", x + y);
+f) printf("The value you entered is: %d\n", value);
+
+9.	a)2
+b)4
+c)x=
+d)x=2
+e)5=5
+f) Nothing
+g) Nothing
+h) Nothing
+i) blank line
+
+
+10.	a) False. C operators have different precedence and associativity rules that determine the order of evaluation.
+b) True.
+c) False. The statement printf("a = 5;"); is a typical example of a printf statement, not an assignment statement.
+d) True.
+e) False. Variable names cannot start with a digit in C. They must begin with a letter or an underscore.
